@@ -1,0 +1,3 @@
+exception are raised
+ in try block was handled 
+by exception block

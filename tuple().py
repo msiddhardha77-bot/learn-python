@@ -1,0 +1,23 @@
+Python 3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> #tuple()
+>>> a=(4,5,"python',8+9j,True,False)
+...    
+SyntaxError: unterminated string literal (detected at line 1)
+>>> a=(4,5,"python",8+9j,True,False)
+...    
+>>> a
+...    
+(4, 5, 'python', (8+9j), True, False)
+>>> type(a)
+...    
+<class 'tuple'>
+>>> a.index(4)
+...    
+0
+>>> len(a)
+...    
+6
+>>> a.count(True)
+...    
+1
